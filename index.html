@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ca">
 <head>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
     <meta charset="UTF-8">
@@ -19,7 +19,11 @@
             text-align: center;
             font-size: 20px;
             font-family: "Audiowide", sans-serif;
-            padding: 10em 0;
+            padding: 15em 0;
+            background-image: url('hobby.JPG');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
         }
 
         nav {
@@ -44,7 +48,7 @@
 
         section {
             padding: 30px;
-            min-height: 60vh; /* Adjusted the minimum height of the section */
+            min-height: 70vh; /* Adjusted the minimum height of the section */
         }
       
         ul {
@@ -54,35 +58,11 @@
         }
 
 
-        .image-container {
-            float: left;
-            width: 80%;
-            height: 50%;
-            margin: 5%;
-            overflow: hidden;
-            position: relative;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
+      image {
+        float: left;
+        padding: 20px;
+      }
 
-        .image-container:hover {
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-        }
-
-        .image-container img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-
-        .main-content {
-            width: 68%;
-            float: left;
-            background-color: #ecf0f1;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
 
         footer {
             background-color: #2f343d;
@@ -92,9 +72,15 @@
             clear: both;
         }
 
-        h1, h2, p {
+        h2 {
+          width: 500px;
             margin-bottom: 15px;
+            background-color: #fa759f;
         }
+      
+      p {
+        width: 590px;
+      }
 
         nav a {
             float: left;
@@ -136,31 +122,31 @@
     </nav>
 
     <section id="about">
-        <div class="image-container">
-            <img src="about me.jpg" alt="about me">
+        <div class="image" style="background-color:#2f343d;color:white;padding:20px;width:850px;">
+            <img src="about me2.jpg" alt="about me" style="width:250px;height:340px;">
+            <img src="about me3.jpg" alt="about me" style="width:240px;height:340px;">
+            <img src="about me.JPG" alt="about me" style="width:350px;height:230px;">
         </div>
-        <div class="main-content">
+        <div style="background-color:#2f343d;color:white;padding:20px;width:850px;">
           <!-- about me -->
             <h2>Who is Sophie Wang?</h2>
             <p>Your introduction goes here. This is a brief description of who you are and what you do.</p>
             <h2>Do you wanna make friend with me?</h2>
             <p>......</p>
-            <p>Email: <a href="wangsophie1121@gmail.com">wangsophie1121@gmail.com</a></p>
+            <p>MY Email: <a href="x78wang@uwaterloo.ca">x78wang@uwaterloo.ca</a></p>
             <p>......</p>
         </div>
     </section>
 
     <section id="hobbies">
-        <h2>My Hobbies</h2>
-        <div class="image-container">
-            <img src="portfolio-image1.jpg" alt="hobbies Image 1">
+        <div class="image" style="background-color:#2f343d;color:white;padding:20px;width:600px;">
+            <img src="sneaker.jpg" alt="sneaker.jpg" style="width:300px;height:400px;">
+            <img src="hobby2.JPG" alt="hobbies Image 2" style="width:290px;height:400px;">
         </div>
-        <div class="image-container">
-            <img src="portfolio-image2.jpg" alt="hobbies Image 2">
-        </div>
-      <div class="main-content">
+      <div style="background-color:#2f343d;color:white;padding:20px;width:600px;">
           <!-- about my hobbies -->
-            <h2>I AM A COOL GUY</h2>
+        <h2>My Hobbies</h2>
+            <h3>I AM A COOL GUY</h3>
           <h3>You know what?</h3>
           <p>......</p>
         <ul>
@@ -173,25 +159,24 @@
     </section>
 
     <section id="my cat">
-        <h2>My CAT</h2>
-        <div class="image-container">
-            <img src="cat1.jpg" alt="cat Image 1">
+        <div class="image" style="background-color:#2f343d;color:white;padding:20px;width:650px;">
+            <img src="cat1.JPG" alt="cat Image 1" style="width:650px;height:380px;">
         </div>
-        <div class="image-container">
-            <img src="portfolio-image2.jpg" alt="cat Image 2">
-        </div>
-      <div class="main-content">
+      <div style="background-color:#2f343d;color:white;padding:20px;width:650px;">
           <!-- about my cat -->
-            <h2>Lion King - Simba！！！</h2>
+        <h2>My CAT</h2>
+            <h3>Lion King - Simba！！！</h3>
           <h3>About him</h3>
         <p>......</p>
         </div>
     </section>
   
     <section id="my style">
-      <h2>My Style</h2>
+      <div style="background-color:#2f343d;color:white;padding:20px;width:650px;">
+        <h2>My Style</h2>
       <p>....</p>
-      <div class="image-container">
+      </div>
+      <div class="image" style="background-color:#2f343d;color:white;padding:20px;width:650px;">
       <img src="your-image.jpg" alt="my photo">
     </div>
     </section>
