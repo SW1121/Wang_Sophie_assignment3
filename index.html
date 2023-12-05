@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-ca">
 <head>
+  <!--Code copied from: https://www.w3schools.com/w3css/w3css_slideshow.asp
+      Author: w3schools.com
+      Name: font-family from Google
+      Description: font type in google.
+      Date retrieved: Sept. 26, 2019-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,23 +17,43 @@
             padding: 0;
             background-color: #f0f0f0;
         }
-
+        /*Code copied from: https://www.w3schools.com/w3css/w3css_slideshow.asp
+         Author: w3schools.com
+         Name: font-family
+         Description: show the different font.
+         Date retrieved: Sept. 26, 2019*/
         header {
             background-color: black;
             color: white;
             text-align: center;
             font-size: 20px;
+            /*copied code starts*/
             font-family: "Audiowide", sans-serif;
+            /*copied code ends*/
             padding: 15em 0;
-            background-image: url('hobby.JPG');
+        /*Code copied from: https://www.w3schools.com/w3css/w3css_slideshow.asp
+         Author: w3schools.com
+         Name: background
+         Description: put image in background and change the size
+         Date retrieved: Sept. 26, 2019*/
+          /*copied code starts*/
+            background-image: url("hobby.JPG");
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
+          /*copied code ends*/
         }
-
+       /*Code copied from: https://www.w3schools.com/w3css/w3css_slideshow.asp
+         Author: w3schools.com
+         Name: font-family
+         Description: show the different font.
+         Date retrieved: Sept. 26, 2019*/
         nav {
             background-color: #2f343d;
             overflow: hidden;
+          /*copied code starts*/
+            font-family: "Copperplate", fantasy;
+          /*copied code ends*/
         }
 
         nav a {
@@ -45,24 +70,32 @@
             background-color: #ddd;
             color: black;
         }
+      
 
         section {
-            padding: 30px;
-            min-height: 70vh; /* Adjusted the minimum height of the section */
+            padding: 20px; 
         }
       
-        ul {
+      /*Code copied from: https://www.w3schools.com/w3css/w3css_slideshow.asp
+         Author: w3schools.com
+         Name: lists and font-family
+         Description: list-style and font type
+         Date retrieved: Sept. 26, 2019*/
+        ul li {
+          /*copied code starts*/
             font-family: "Monaco", sans-serif;
             font-size: 15px;
             list-style: circle;
+          /*copied code ends*/
         }
-
-
-      image {
-        float: left;
-        padding: 20px;
+      
+        div {
+        background-color: #2f343d;
+        color: white;
+        padding: 10px;
+        width: 850px;
+        border-radius: 20px;
       }
-
 
         footer {
             background-color: #2f343d;
@@ -74,27 +107,25 @@
 
         h2 {
           width: 500px;
-            margin-bottom: 15px;
-            background-color: #fa759f;
+          margin-bottom: 15px;
+          margin-left: 20px;
         }
+      
+        h3 {
+          margin-left: 20px;
+      }
       
       p {
         width: 590px;
+        margin-left: 20px;
+        background-color: #41454f;
+        border-radius: 10px;
+        padding: 10px;
       }
 
-        nav a {
-            float: left;
-        }
-
-        nav a:hover {
-            text-decoration: none;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
+      a {
+        color: yellow;
+      }
 
         th, td {
             border: 1px solid #ddd;
@@ -110,6 +141,7 @@
 </head>
 <body>
 
+
     <header>
         <h1 style="margin: 0;">👾SophieeeWang👽</h1>
     </header>
@@ -122,64 +154,60 @@
     </nav>
 
     <section id="about">
-        <div class="image" style="background-color:#2f343d;color:white;padding:20px;width:850px;">
-            <img src="about me2.jpg" alt="about me" style="width:250px;height:340px;">
-            <img src="about me3.jpg" alt="about me" style="width:240px;height:340px;">
-            <img src="about me.JPG" alt="about me" style="width:350px;height:230px;">
-        </div>
-        <div style="background-color:#2f343d;color:white;padding:20px;width:850px;">
+        <div>
+            <img src="about me2.jpg" alt="about me" style="width:250px;height:340px;border-radius:20px;">
+            <img src="about me3.jpg" alt="about me" style="width:240px;height:340px;border-radius:20px;">
+            <img src="about me.JPG" alt="about me" style="width:350px;height:230px;border-radius:20px;">
+  
           <!-- about me -->
             <h2>Who is Sophie Wang?</h2>
-            <p>Your introduction goes here. This is a brief description of who you are and what you do.</p>
+            <p style="width: 700px;">Sophie Wang is a cool girl with a unique personality – yes, that's me! I am a free-spirited and whimsical soul, wandering thousands of kilometers away. I love lying on lush green grass, inhaling the earthy fragrance, and gazing at the leisurely drifting clouds in the sky. People around me often remark that I may seem a bit melancholic, but that's merely the initial impression my distinctive appearance gives! I enjoy immersing myself in this world, savoring the tranquility bestowed by nature. Additionally, I delight in exploring the realms of the mind, engaging in discussions on thought-provoking topics.</p>
             <h2>Do you wanna make friend with me?</h2>
-            <p>......</p>
-            <p>MY Email: <a href="x78wang@uwaterloo.ca">x78wang@uwaterloo.ca</a></p>
-            <p>......</p>
+            <p style="width: 700px;">I am a slow-warming and sincere person; after spending some time with me, you'll discover that I have many quirky thoughts. I enjoy the thrill of an adventurous life, and if you were to ask me at 3 am if I want to go to the lakeside to stargaze, I think I would wholeheartedly say yes!</p>
+            <p style="width: 350px;">MY Email Adress✉️: <a href="x78wang@uwaterloo.ca">x78wang@uwaterloo.ca</a></p>
+            <p style="width: 700px;">Becoming friends with me will undoubtedly bring joy into your life! If you're eager to get to know me, feel free to reach out by clicking on my email!👆🏼</p>
         </div>
     </section>
 
     <section id="hobbies">
-        <div class="image" style="background-color:#2f343d;color:white;padding:20px;width:600px;">
-            <img src="sneaker.jpg" alt="sneaker.jpg" style="width:300px;height:400px;">
-            <img src="hobby2.JPG" alt="hobbies Image 2" style="width:290px;height:400px;">
-        </div>
-      <div style="background-color:#2f343d;color:white;padding:20px;width:600px;">
+        <div style="background-color:#2f343d;color:white;padding:20px;width:630px;border-radius:20px;">
+            <img src="sneaker.jpg" alt="sneaker.jpg" style="width:300px;height:400px;border-radius:20px;margin-left:10px;">
+            <img src="hobby2.JPG" alt="hobbies Image 2" style="width:290px;height:400px;border-radius:20px;margin-left:20px;">
+        
           <!-- about my hobbies -->
-        <h2>My Hobbies</h2>
-            <h3>I AM A COOL GUY</h3>
+        <h2>My Hobbies！！！</h2>
+          <h3>I AM A COOL GUY</h3>
           <h3>You know what?</h3>
-          <p>......</p>
+          <p>In my daily life, I really enjoy wearing some cool and unique shoes. This has also led me to develop a passion for collecting sneakers—each new addition to my collection brings me immense joy. Besides, as mentioned in my introduction, I have a deep love for nature! This has sparked my interest in activities like hiking, mountain climbing, and camping. I have many other hobbies as well, such as: </p>
         <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
+        <li>Listening to music</li>
+        <li>Playing basketball</li>
+        <li>visiting art exhibitions</li>
+        <li>Playing racing games</li>
     </ul>
       </div>
     </section>
 
     <section id="my cat">
-        <div class="image" style="background-color:#2f343d;color:white;padding:20px;width:650px;">
-            <img src="cat1.JPG" alt="cat Image 1" style="width:650px;height:380px;">
-        </div>
-      <div style="background-color:#2f343d;color:white;padding:20px;width:650px;">
+        <div style="background-color:#2f343d;color:white;padding:20px;width:650px;border-radius:20px;">
+            <img src="cat1.JPG" alt="cat Image 1" style="width:650px;height:380px;border-radius:20px;">
+        
           <!-- about my cat -->
-        <h2>My CAT</h2>
-            <h3>Lion King - Simba！！！</h3>
+        <h2>My CAT 🐈</h2>
+          <h3>Lion King - Simba！！！</h3>
           <h3>About him</h3>
-        <p>......</p>
+        <p>Simba is the first kitten I ever adopted. I met him in a pet store in August 2022, and he captured my heart with his adorable and intelligent nature. I named him Simba because I thought the name exudes a royal vibe, haha! Also, I've always been a fan of The Lion King movie from my childhood. Simba enjoys eating canned meat, and he loves playing games with us. If you ignore him or forget to feed him his favorite canned food, he gets upset and expresses his emotions by loudly meowing, stomping his feet on the ground, and running around the house in protest.</p>
         </div>
     </section>
   
     <section id="FOODIE">
-      <div style="background-color:#2f343d;color:white;padding:20px;width:900px;">
-        <h2>FOODIE</h2>
-      <p>....</p>
-      </div>
-      <div class="image" style="background-color:#2f343d;color:white;padding:20px;width:900px;">
-      <img src="food1.jpg" alt="food photo" style="width:250px;height:300px;">
-        <img src="food2.jpg" alt="food photo" style="width:250px;height:300px;">
-        <img src="food3.jpg" alt="food photo" style="width:390px;height:300px;">
+      <div class="image" style="background-color:#2f343d;color:white;padding:10px;width:900px;border-radius:20px;">
+      <img src="food1.jpg" alt="food photo" style="width:250px;height:300px;border-radius:20px;">
+        <img src="food2.jpg" alt="food photo" style="width:250px;height:300px;border-radius:20px;">
+        <img src="food3.jpg" alt="food photo" style="width:390px;height:300px;border-radius:20px;">
+        <!-- about foodie -->
+        <h2>FOODIE 🍤</h2>
+      <p style="width: 800px;">I am a foodie, and I love to eat a variety of things, such as hot pot, barbecue, Korean cuisine, Japanese food, and many Western dishes. Of course, every meal must include potatoes! My favorite ingredient is potatoes!! I thoroughly enjoy the happiness that comes with eating, and it helps me relieve stress.</p>
     </div>
     </section>
 
